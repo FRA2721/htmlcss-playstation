@@ -61,6 +61,8 @@ img {
 /* button-formatting */
 .ms_btn {
     border-radius: 20px;
+    display: inline-block;
+    padding: .5rem 1rem;
 }
 
 /* typography */
@@ -74,8 +76,13 @@ header .nav-link {
     font-weight: 600;
 }
 
+header .ms_logo img {
+    padding: .5rem;
+    width: 100px;
+}
+
 header .dropdown-toggle::after {
-    margin-left: 0.5rem;
+    margin-left: .5rem;
     color: var(--ms_color-light-gray);
 }
 
@@ -107,7 +114,10 @@ header .ms_btn {
 
 /* jumbotron-card */
 #jumbotron .card {
-    background-color: none;
+    background-color: var(--ms_color-red);
+    color: var(--ms_color-white);
+    text-decoration: none;
+    font-weight: 600;
 }
 
 /* buy-now  */
@@ -120,6 +130,27 @@ header .ms_btn {
 /* new-release  */
 #new-releases {
     color: var(--ms_color-white);
+}
+
+#new-release .ms_card-img img {
+    border-radius: 15px;
+}
+
+/* footer */
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    line-height: 2.5rem;
+}
+
+.ms_global img {
+    width: 15px;
+}
+
+.ms_card img {
+    width: 150px;   
 }
 
 /* end-code */
