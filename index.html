@@ -41,106 +41,220 @@
     <!-- header -->
     <header class="fixed-top">
 
-        <!-- top-header -->
-        <div class="ms_bg-black text-end py-1">
-            <span class="pe-3 ms_color-white">SONY</span>
-        </div>
-        <!-- /top-header -->
+        <!-- nav-bar-section -->
+        <nav class="navbar navbar-expand-lg bg-light">
 
-        <!-- nav-bar -->
-        <nav class="navbar navbar-expand-lg bg-white">
+            <!-- container -->
+            <div class="container-fluid">
 
-            <!-- nav-bar-voices -->
-            <div class="container-fluid ">
-
-                <!-- logo-section -->
                 <a class="navbar-brand" href="#">
-                    <img src="img/play_logo.svg" alt="logo image">
+                    <img src="img/play_logo.svg" alt="Play Logo">
                 </a>
-                <!-- /logo-section -->
 
-                <button class="navbar-toggler" type="button">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- voices-header-section -->
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
 
-                        <!-- games-section -->
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="#">Games</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Games
+                            </a>
+
+                            <!-- menu -->
+                            <ul class="dropdown-menu">
+
+                                <!-- menu-top -->
+                                <li class="ms_dropdown-menu-top">
+                                    <ul class="d-flex justify-content-center text-center">
+                                        
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="Play menu icon" class="ms_img_small">
+                                                <p>Playstation 5</p>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="Play menu icon" class="ms_img_small">
+                                                <p>Playstation 4</p>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="Play menu icon" class="ms_img_small">
+                                                <p>Playstation 3</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li class="ms_dropdown-menu-bottom">
+                                    <ul class="d-flex justify-content-center">
+                                        <li>
+                                            <a href="" class="dropdown-item">Games link</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="" class="dropdown-item">Games link</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="" class="dropdown-item">Games link</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
-                        <!-- /games-section -->
 
-                        <!-- hardware-section -->
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="#">Hardware</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hardware
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Francesco</a></li>
+                                <li><a class="dropdown-item" href="#">Francesco</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Francesco</a></li>
+                            </ul>
                         </li>
-                        <!-- /hardware-section -->
 
-                        <!-- services-section -->
-                        <li class="nav-item ">
-                            <a class="nav-link dropdown-toggle" href="#">Services</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Cimino</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Cimino</a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Cimino</a>
+                                </li>
+                            </ul>
+
                         </li>
-                        <!-- /services-section -->
 
-                        <!-- news-section -->
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="#">News</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">class</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">class</a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">class</a>
+                                </li>
+                            </ul>
                         </li>
-                        <!-- /news-section -->
 
-                        <!-- buy-now-section -->
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="#">Buy now</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Buy
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">#</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">#</a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">#</a>
+                                </li>
+                            </ul>
                         </li>
-                        <!-- /buy-now-section -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Support
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">73</a>
+                                </li>
 
-                        <!-- customer-support-section -->
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="#">Customer support</a>
+                                <li>
+                                    <a class="dropdown-item" href="#">73</a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">73</a>
+                                </li>
+                            </ul>
                         </li>
-                        <!-- /customer-support-section -->
-
                     </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                My Playstation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">done</a>
+                                </li>
 
-                    <!-- right-header-section -->
-                    <div class="d-flex">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li>
+                                    <a class="dropdown-item" href="#">done</a>
+                                </li>
 
-                            <!-- my-playstation-section -->
-                            <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#">My Playstation</a>
-                            </li>
-                            <!-- /my-playstation-section -->
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
 
-                            <!-- log-in-section -->
-                            <li class="nav-item">
-                                <a href="#" class="nav-link nav-link ms_btn ms_bg-light-black px-3">Log in</a>
-                            </li>
-                            <!-- /log-in-section -->
+                                <li>
+                                    <a class="dropdown-item" href="#">done</a>
+                                </li>
+                            </ul>
+                        </li>
 
-                            <!-- search-section -->
-                            <li>
-                                <span class="nav-link" href="#">
-                                    <i class="fa-solid fa-magnifying-glass ms-1"></i>
-                                </span>
-                            </li>
-                            <!-- /search-section -->
+                        <li class="nav-item">
+                            <a href="" class="btn ms_btn bg-dark text-light">Accedi</a>
+                        </li>
 
-                        </ul>
-                    </div>
-                    <!-- /right-header-section -->
-
+                        <li class="nav-item">
+                            <a href="" class="btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- /voices-header-section -->
             </div>
-            <!-- /nav-bar-voices -->
-
+            <!-- /container -->
         </nav>
-        <!-- /nav-bar -->
-
     </header>
     <!-- /header -->
 
@@ -169,7 +283,7 @@
         <!-- /jumbotron-section -->
 
         <!-- game-cards-section -->
-        <section id="gamecards" class="ms_section">
+        <section id="game-cards" class="ms_section">
 
             <!-- container -->
             <div class="container">
@@ -758,6 +872,7 @@
 
                     <!-- container -->
                     <div class="container">
+
                         <div class="row">
                             <div class="col-12 col-md-4">
                                 <ul>
