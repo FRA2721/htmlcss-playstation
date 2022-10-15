@@ -86,6 +86,14 @@ img {
     color:black;
 }
 
+#card-ps-5{
+    transition-duration: 1s;
+}
+
+#card-ps-5:hover{
+    transform: scale(1.2)
+}
+
 
 /* typography */
 h2 {
