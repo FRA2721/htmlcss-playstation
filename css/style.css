@@ -71,9 +71,12 @@ img {
     border: 1.5px solid red;
 }
 
+#card-game-formatting{
+    transition-duration: 1s;
+}
+
 #card-game-formatting:hover{
     transform: scale(.8); 
-    border: 1.5px solid black;
     cursor: pointer;
 }
 
@@ -92,6 +95,7 @@ img {
 
 #card-ps-5:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 #card-ps-4{
@@ -100,6 +104,7 @@ img {
 
 #card-ps-4:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 #new-releases-1{
@@ -111,6 +116,23 @@ img {
     cursor: pointer;
 }
 
+#playstation-store-card{
+    transition-duration: 1s;
+}
+
+#playstation-store-card:hover{
+    transform: scale(.8);
+    cursor: pointer;
+}
+
+#social-icons{
+    transition-duration: 1s;
+}
+
+#social-icons:hover{
+    transform: scale(.8);
+    cursor: pointer;
+}
 
 /* typography */
 h2 {
