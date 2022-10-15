@@ -63,7 +63,14 @@ img {
     border-radius: 20px;
     display: inline-block;
     padding: .5rem 1rem;
+    transition-duration: 1s;
 }
+
+#buttons:hover{
+    transform: scale(.8); 
+    border: 1.5px solid red;
+}
+
 
 /* typography */
 h2 {
