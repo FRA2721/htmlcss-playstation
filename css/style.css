@@ -91,7 +91,24 @@ img {
 }
 
 #card-ps-5:hover{
-    transform: scale(1.2)
+    transform: scale(1.2);
+}
+
+#card-ps-4{
+    transition-duration: 1s;
+}
+
+#card-ps-4:hover{
+    transform: scale(1.2);
+}
+
+#new-releases-1{
+    transition-duration: 1s;
+}
+
+#new-releases-1:hover{
+    transform: scale(.8);
+    cursor: pointer;
 }
 
 
