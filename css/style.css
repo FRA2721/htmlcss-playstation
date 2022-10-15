@@ -71,6 +71,21 @@ img {
     border: 1.5px solid red;
 }
 
+#card-game-formatting:hover{
+    transform: scale(.8); 
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+#decoration{
+    transition-duration: 1s;
+}
+
+#decoration:hover{
+    transform: scale(1.2);
+    color:black;
+}
+
 
 /* typography */
 h2 {
